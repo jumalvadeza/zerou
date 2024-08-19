@@ -1,0 +1,117 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d93e9eb1;
+    margin: 0;
+}
+
+/* Contêiner principal da calculadora */
+#calculator {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+/* Título da calculadora */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px; /* Menor margem para mais espaço no display */
+}
+
+/* Display da calculadora */
+.display {
+    background: #c92495;
+    color: #fff;
+    font-size: 2.5em; /* Maior para melhor visualização */
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Campo de entrada dos números e operações */
+input#screen {
+    width: 100%;
+    background: #222;
+    color: #fff;
+    font-size: 2.5em; /* Aumentado para melhor visualização */
+    border: none;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Operações anteriores */
+#operations {
+    background: #444;
+    color: #ddd;
+    font-size: 1em; /* Aumentado para melhor visualização */
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 100px; /* Aumentado para mais espaço de histórico */
+    border-bottom: 1px solid #555;
+}
+
+/* Estilos dos botões */
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+button {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+    border: none;
+    background: #eee;
+    font-size: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+button:active {
+    background: #ccc;
+}
+
+#ce, #ac {
+    background: #ff6961;
+    color: #fff;
+}
+
+#ce:hover, #ac:hover {
+    background: #ff5c5c;
+}
+
+#eval {
+    background: #77dd77;
+    color: #fff;
+}
+
+#eval:hover {
+    background: #66cc66;
+}

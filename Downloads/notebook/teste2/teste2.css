@@ -1,0 +1,9 @@
+.texto-estilizado {
+    background-color: #7925c7; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  .texto-estilizado h1 {
+    color: #ffffff;
+  }

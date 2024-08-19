@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="dots">
+      
+      </div>
+      <div class="profile">
+        <ion-icon name="settings-outline"></ion-icon>
+        <p></p>
+      </div>
+      <ul>
+        <span>Conta</span>
+        <li>
+          <a href="login.html"
+            ><ion-icon name="person-outline"></ion-icon>
+            <p>Login</p></a
+          >
+        </li>
+        <span>Menu</span>
+        <li>
+          <a href="slidebar.html"
+            ><ion-icon name="home-outline"></ion-icon>
+            <p>Página de início</p></a
+          >
+        </li>
+        <li>
+          <a href="roleta.css"
+            ><ion-icon name="stats-chart-outline"></ion-icon>
+            <p>Jogos</p></a
+          >
+        </li>
+      </ul>
+      <ul>
+        <span>Sobre</span>
+        <li class="noti">
+          <a href="#"
+            ><ion-icon name="notifications-outline"></ion-icon>
+            <p>Notificações</p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><ion-icon name="wallet-outline"></ion-icon>
+            <p>Depósito</p></a
+          >
+        </li>
+        <li class="likes">
+          <a href="#"
+            ><ion-icon name="heart-outline"></ion-icon>
+            <p>Estatísticas</p></a
+          >
+        </li>
+      </ul>
+      <ul>
+        <span>Custom</span>
+        <li class="switch-theme">
+          <a href="#"
+            ><ion-icon name="moon-outline"></ion-icon>
+            <p>Modo escuro</p>
+            <button id="dark-mode-toggle">
+              <div class="circle"></div></button
+          ></a>
+        </li>
+        <li>
+          <a href="#"
+            ><ion-icon name="log-out-outline"></ion-icon>
+            <p>Logout</p></a
+          >
+        </li>
+      </ul>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="slide.js"></script>
+  </body>
+  
+</html>

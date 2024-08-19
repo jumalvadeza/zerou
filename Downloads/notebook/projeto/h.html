@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Fatorial</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  input[type="number"] {
+    padding: 8px;
+    margin: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #1bb500;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #resultado {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<h2>Calculadora de Fatorial</h2>
+<label for="numero">Digite um número entre 1 e 21:</label>
+<input type="number" id="numero" min="1" max="21">
+<button id="calcular">Calcular Fatorial</button>
+<div id="resultado"></div>
+
+<script src="j.js"></script>
+</body>
+</html>

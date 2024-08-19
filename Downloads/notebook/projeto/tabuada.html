@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  input[type="number"] {
+    padding: 8px;
+    margin: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #1bb500;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #resultado {
+    margin-top: 20px;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>TABUADA ZER0</h2>
+        <label for="numero">Digite um número:</label>
+        <input type="number" id="numero">
+        <button onclick="exibirTabuada()">Exibir Tabuada</button>
+        <div id="tabuada"></div>
+    </div>
+
+    <script src="tabuada.js"></script>
+
+</body>
+</html>

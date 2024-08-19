@@ -1,0 +1,15 @@
+.texto-estilizado {
+    background-color: #7925c7; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+  }
+  
+  .texto-estilizado h1 {
+    color: #ffffff; /* Cor do título */
+  }
+  
+  .texto-estilizado p {
+    color: #ffffff; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+  }
+    
